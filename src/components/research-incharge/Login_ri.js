@@ -98,7 +98,7 @@ const Login_ri = ({ setIsAuthenticatedri }) => {
                   </div>
                 </div>
                 <div className="mt-3">
-                  <Link to="/ri/register">Click to login!</Link>
+                  <Link to="/ri/register">Click to Register!</Link>
                 </div>
               </form>
             </div>

@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 import DataTable from "react-data-table-component";
 import { toast } from "react-toastify";
+import "../custom-css/admin.css";
 import {
   storage,
   ref,

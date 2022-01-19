@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import TagsInput from "react-tagsinput";
 import "react-tagsinput/react-tagsinput.css";
+import "../custom-css/admin.css";
 import {
   storage,
   ref,

@@ -37,6 +37,7 @@ const Register_ri = ({ setIsAuthenticatedri }) => {
         const data = await response.json();
 
         if (response.status === 200) {
+          window.location = "/ri/login";
           // localStorage.setItem("token", data.token);
           // setAuth(true);
 
