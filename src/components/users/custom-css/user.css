@@ -1,0 +1,83 @@
+canvas {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+.abstract-container {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.page-link:focus {
+  color: #fff !important;
+  background-color: #0a58ca !important;
+  box-shadow: none !important;
+}
+
+.picker-panel {
+  height: auto !important;
+}
+
+.picker-panel > .footer {
+  display: none !important;
+}
+
+@media print {
+  .pdf-container {
+    display: none;
+  }
+}
+
+.bg-img {
+  background: url("../../../assets/BG4.JPG") no-repeat center center !important;
+  background-size: cover !important;
+}
+.cards {
+  background: rgba(255, 255, 255, 0.8);
+}
+.card_research {
+  background: rgba(255, 254, 254, 1);
+}
+div > .year-picker {
+  width: 15rem;
+  height: auto;
+}
+
+.yr {
+  z-index: 1;
+}
+
+.react-tagsinput-tag {
+  background-color: #e54f70 !important;
+  border-radius: 2px;
+  border: 1px solid #e54f70 !important;
+  color: #fff !important;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.react-tagsinput-remove {
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.year-input {
+  text-align: center;
+}
