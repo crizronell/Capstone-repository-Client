@@ -271,10 +271,10 @@ const Research_ri = ({ researchInchargeInfo }) => {
           !selectedProgram ||
           keywords.length === 0
         ) {
-          toast.error("Fill in all Fields");
+          toast.error("Fill In All Fields");
         }
         if (files[0].size > limitFileSize) {
-          alert("The file size must be no more than 50MB!");
+          alert("The file Size Must Be No More Than 50MB!");
         }
       }
     } catch (err) {

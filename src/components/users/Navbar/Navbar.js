@@ -73,7 +73,7 @@ const Navbar = ({ logout }) => {
         setName(newName);
         toast.success(data);
       } else {
-        toast.error("Error on updating name");
+        toast.error("Error On Updating Name");
       }
     }
     if (!newName) {
@@ -119,7 +119,7 @@ const Navbar = ({ logout }) => {
     } else if (!oldPassword || !newPassword || !confirmPassword) {
       toast.error("Fill Out All Fields");
     } else {
-      toast.error("Password and confirm password does not match!");
+      toast.error("Password And Confirm Password Does Not Match!");
     }
   };
 

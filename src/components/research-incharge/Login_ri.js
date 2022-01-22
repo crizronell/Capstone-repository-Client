@@ -44,7 +44,7 @@ const Login_ri = ({ setIsAuthenticatedri }) => {
           toast.error(data.message);
         }
       } else {
-        toast.error("Messing Credentials");
+        toast.error("Missing Credentials");
       }
     } catch (err) {
       console.error(err.message);

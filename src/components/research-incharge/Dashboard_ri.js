@@ -133,9 +133,9 @@ const Dashboard_ri = ({ setIsAuthenticatedri }) => {
         toast.error(data);
       }
     } else if (!oldPassword || !newPassword || !confirmPassword) {
-      toast.error("Fill in all fields");
+      toast.error("Fill In All Fields");
     } else {
-      toast.error("Password and confirm password does not match!");
+      toast.error("Password And Confirm Password Does Not Match!");
     }
   };
 
