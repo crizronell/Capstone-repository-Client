@@ -60,7 +60,7 @@ const Register_ri = ({ setIsAuthenticatedri }) => {
           <div className="card rounder card-outline cards">
             <div className="card-body">
               <h3 className="login-box-msg">Welcome</h3>
-              <h4 className="login-box-msg">Research Incharge</h4>
+              <h4 className="login-box-msg">Research Teacher</h4>
               <form onSubmit={onSubmitForm}>
                 <div className="input-group mb-3">
                   <input
