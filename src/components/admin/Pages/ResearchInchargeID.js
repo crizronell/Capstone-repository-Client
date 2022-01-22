@@ -48,7 +48,7 @@ function ResearchInchareID({ setAuth }) {
           toast.error("ID is already exist");
         }
       } else if (!id) {
-        toast.error("Fill in the field");
+        toast.error("Fill Out the field");
       }
     } catch (err) {
       console.error(err.message);

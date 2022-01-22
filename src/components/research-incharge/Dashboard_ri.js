@@ -217,50 +217,56 @@ const Dashboard_ri = ({ setIsAuthenticatedri }) => {
       </nav>
 
       <div className="container">
-        <div className="d-flex align-items-start mt-5 border border-1 p-3 shadow">
-          <div
-            className="nav flex-column nav-pills me-3 flex-shrink-1"
-            id="v-pills-tab"
-            role="tablist"
-            aria-orientation="vertical"
-          >
-            <button
-              className="nav-link active text-start"
-              id="v-pills-home-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#Add_Capstone"
-              type="button"
-              role="tab"
-            >
-              Add Research
-            </button>
-            <button
-              className="nav-link text-start"
-              id="v-pills-profile-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#Pending_Capstone"
-              type="button"
-              role="tab"
-            >
-              Pending Research
-            </button>
-          </div>
-          <div className="tab-content w-100" id="v-pills-tabContent">
-            <div
-              className="tab-pane fade show active"
-              id="Add_Capstone"
-              role="tabpanel"
-              aria-labelledby="v-pills-home-tab"
-            >
-              <Research_ri researchInchargeInfo={researchInchargeInfo} />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="Pending_Capstone"
-              role="tabpanel"
-              aria-labelledby="v-pills-profile-tab"
-            >
-              <PendingResearch_ri researchInchargeInfo={researchInchargeInfo} />
+        <div className="card mt-5">
+          <div className="card-body">
+            <div className="row align-items-start">
+              <div
+                className="nav nav-pills mb-3"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <button
+                  className="nav-link active text-start "
+                  id="v-pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#Add_Capstone"
+                  type="button"
+                  role="tab"
+                >
+                  Add Capstone
+                </button>
+                <button
+                  className="nav-link text-start"
+                  id="v-pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#Pending_Capstone"
+                  type="button"
+                  role="tab"
+                >
+                  Pending Capstone
+                </button>
+              </div>
+              <div className="tab-content w-100" id="v-pills-tabContent">
+                <div
+                  className="tab-pane fade show active"
+                  id="Add_Capstone"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-home-tab"
+                >
+                  <Research_ri researchInchargeInfo={researchInchargeInfo} />
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="Pending_Capstone"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-profile-tab"
+                >
+                  <PendingResearch_ri
+                    researchInchargeInfo={researchInchargeInfo}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

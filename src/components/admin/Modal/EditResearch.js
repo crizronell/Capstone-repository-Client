@@ -188,7 +188,7 @@ function EditResearch({ row, refresh, setRefresh, setIsEditingResearch }) {
             toast.success("Research updated successfully!");
           }
         } else {
-          toast.error("Fill in all fields.");
+          toast.error("Fill Out All fields.");
         }
       } catch (err) {
         console.error(err.message);
@@ -317,12 +317,12 @@ function EditResearch({ row, refresh, setRefresh, setIsEditingResearch }) {
                                   document.getElementById(`file-${id}`).value =
                                     "";
                                   toast.success(
-                                    "Research updated successfully!"
+                                    "Research Updated Successfully!"
                                   );
                                 } else if (
                                   add_research_Url_response.status !== 200
                                 ) {
-                                  toast.error("Error on updating research url");
+                                  toast.error("Error On Updating Research Url");
                                 }
                               }
                             });
@@ -335,7 +335,7 @@ function EditResearch({ row, refresh, setRefresh, setIsEditingResearch }) {
                   })
                   .catch((error) => {
                     // trigger when theres error
-                    console.log("Error occurued when deleting the file");
+                    console.log("Error Occurued When Deleting The File");
                   });
               });
             })
@@ -343,10 +343,10 @@ function EditResearch({ row, refresh, setRefresh, setIsEditingResearch }) {
               console.log("Error in fetching file");
             });
         } else {
-          toast.error("fill in all fields");
+          toast.error("Fill Out All Fields");
         }
       } else {
-        alert("The file size must be no more than 50MB!");
+        alert("The File Size Must Be No More Than 50MB!");
       }
     }
   };

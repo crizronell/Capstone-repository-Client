@@ -124,31 +124,7 @@ const PendingResearch_ri = ({ researchInchargeInfo }) => {
 
   return (
     <>
-      <section className="content">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-12">
-              <div className="card">
-                <div className="card-body">
-                  <DataTable
-                    columns={columns}
-                    data={
-                      pendingResearch &&
-                      pendingResearch.filter(
-                        (row) => row.ri_id === researchInchargeInfo.ri_id
-                      )
-                    }
-                    highlightOnHover
-                    pagination
-                    defaultSortFieldId={1}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <div className="card">
+      <div className="card">
         <div className="card-body">
           <DataTable
             columns={columns}
@@ -163,7 +139,7 @@ const PendingResearch_ri = ({ researchInchargeInfo }) => {
             defaultSortFieldId={1}
           />
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
