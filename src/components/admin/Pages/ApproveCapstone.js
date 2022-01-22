@@ -254,14 +254,14 @@ const ApproveCapstone = ({ setAuth }) => {
 
                     toast.success(researchUpdateurl_message);
                   } else if (add_research_Url_response.status !== 200) {
-                    toast.error("Error on updating research url");
+                    toast.error("Error On Updating Research Url");
                   }
                 }
               });
             }
           );
         } else {
-          toast.error("Research title already exist");
+          toast.error("Research Title Already Exist");
         }
       } else {
         if (
@@ -274,10 +274,10 @@ const ApproveCapstone = ({ setAuth }) => {
           !selectedProgram ||
           keywords.length === 0
         ) {
-          toast.error("Fill Out all Fields");
+          toast.error("Fill Out All Fields");
         }
         if (files[0].size > limitFileSize) {
-          alert("The file size must be no more than 50MB!");
+          alert("The File Size Must Be No More Than 50MB!");
         }
       }
     } catch (err) {
@@ -293,7 +293,7 @@ const ApproveCapstone = ({ setAuth }) => {
           <div className="container-fluid">
             <div className="row mb-2">
               <div className="col-sm-6">
-                <h1>Add Capstone</h1>
+                <h1>Add Research</h1>
               </div>
             </div>
           </div>

@@ -114,7 +114,7 @@ function ViewCapstone({ setAuth }) {
           <div className="container-fluid">
             <div className="row mb-2">
               <div className="col-sm-6">
-                <h1>Approve Capstone</h1>
+                <h1>Approve Research</h1>
               </div>
             </div>
           </div>
