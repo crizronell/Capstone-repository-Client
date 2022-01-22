@@ -88,7 +88,7 @@ function Sidebar() {
                     style={{ color: "white" }}
                   />
                   <p className="font-weight-bold" style={{ color: "white" }}>
-                    Add Capstone
+                    Add Research
                   </p>
                 </Link>
               </li>
@@ -100,7 +100,7 @@ function Sidebar() {
                     style={{ color: "white" }}
                   />
                   <p className="font-weight-bold" style={{ color: "white" }}>
-                    Approve Capstone
+                    Approve Research
                   </p>
                 </Link>
               </li>
