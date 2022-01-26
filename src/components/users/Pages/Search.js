@@ -279,7 +279,7 @@ const Search = () => {
                   <YearPicker onChange={onChange} style={{ width: "10rem" }} />
                   <div className="col-auto">
                     <button
-                      onClick={() => filterYear()}
+                      onClick={filterYear}
                       className="btn btn-success ml-2"
                     >
                       Filter by Year
