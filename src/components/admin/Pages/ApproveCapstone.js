@@ -386,7 +386,7 @@ const ApproveCapstone = ({ setAuth }) => {
                       </select>
 
                       <div>
-                        <label className="mt-4">Keywords</label>
+                        <label className="mt-4">Program</label>
                         <select
                           className="form-select"
                           ref={selectProgramRef}
