@@ -234,7 +234,7 @@ const Dashboard_ri = ({ setIsAuthenticatedri }) => {
                   type="button"
                   role="tab"
                 >
-                  Add Capstone
+                  Add Research
                 </button>
                 <button
                   className="nav-link text-start"
@@ -244,7 +244,7 @@ const Dashboard_ri = ({ setIsAuthenticatedri }) => {
                   type="button"
                   role="tab"
                 >
-                  Pending Capstone
+                  Pending Research
                 </button>
               </div>
               <div className="tab-content w-100" id="v-pills-tabContent">
