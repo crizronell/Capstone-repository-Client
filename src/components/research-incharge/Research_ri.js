@@ -78,7 +78,7 @@ const Research_ri = ({ researchInchargeInfo }) => {
     },
     {
       name: "College of Medical and Biological Sciences",
-      program: ["College of Medical and Biological Sciences"],
+      program: ["Bachelor of Medical and Biological Sciences"],
     },
     {
       name: "College of Music",
